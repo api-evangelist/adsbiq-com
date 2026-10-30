@@ -64,5 +64,121 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-adsbiq-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://adsbiq.com/
+AdsBiQ provides a comprehensive advertising intelligence platform that aggregates, normalizes, and analyzes ad campaign data across multiple channels and networks. Their API enables developers to retrieve detailed metrics, audience insights, and performance reports, facilitating data-driven marketing decisions and automated reporting workflows. The company focuses on transparency, data accuracy, and scalable solutions for agencies and enterprises.
+
+**Areas:** Advertising · DataAnalytics · MarketingTechnology · API · Company
+
+## adsbiq-com on APIs.io
+
+Everything profiled for adsbiq-com is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/adsbiq-com/](https://apis.io/providers/adsbiq-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (5)
+
+- [adsbiq-com Aircraft API](https://apis.io/apis/adsbiq-com/adsbiq-com-aircraft-api/) — The Aircraft API from adsbiq-com — 7 operation(s) for aircraft.
+- [adsbiq-com Airports API](https://apis.io/apis/adsbiq-com/adsbiq-com-airports-api/) — The Airports API from adsbiq-com — 4 operation(s) for airports.
+- [adsbiq-com Flights API](https://apis.io/apis/adsbiq-com/adsbiq-com-flights-api/) — The Flights API from adsbiq-com — 2 operation(s) for flights.
+- [adsbiq-com Geographic API](https://apis.io/apis/adsbiq-com/adsbiq-com-geographic-api/) — The Geographic API from adsbiq-com — 2 operation(s) for geographic.
+- [adsbiq-com Network API](https://apis.io/apis/adsbiq-com/adsbiq-com-network-api/) — The Network API from adsbiq-com — 1 operation(s) for network.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Adsbiq Com Agentic Access](https://apis.io/agentic-access/adsbiq-com/adsbiq-com-agentic-access/)
+
+#### JSON Schema (2)
+
+The data models the API reads and writes.
+
+- [Airport](https://apis.io/schemas/adsbiq-com/adsbiq-com-airport/)
+- [RouteActivity](https://apis.io/schemas/adsbiq-com/adsbiq-com-route-activity/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Adsbiq Com Context](https://apis.io/jsonld/adsbiq-com/adsbiq-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [adsbiq-com API Rules](https://apis.io/rules/adsbiq-com/adsbiq-com-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Adsbiq Com Authentication](https://apis.io/security/adsbiq-com/adsbiq-com-authentication/)
+- [Adsbiq Com Domain Security](https://apis.io/security/adsbiq-com/adsbiq-com-domain-security/)
+- [Adsbiq Com Vulnerability Disclosure](https://apis.io/security/adsbiq-com/adsbiq-com-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://adsbiq.com/)
+- [API reference](https://adsbiq.com/api/docs)
+- [Terms of service](https://adsbiq.com/terms)
+- [Privacy policy](https://adsbiq.com/privacy)
+- [GitHub](https://github.com/adsbiq)
+- [Status](https://adsbiq.com/status)
+
+## API Evangelist rating
+
+**Kin Score 45.1** — developing · rubric 0.25.0 · scored 2026-10-30
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 59.8 |
+| Contract governance | 70.9 |
+| Operational transparency | 36.8 |
+| Developer ergonomics | 19.0 |
+| Access clarity | 21.1 |
+
+**Agent readiness 32.3** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 30.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/adsbiq-com/](https://apis.io/providers/adsbiq-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for adsbiq-com: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/adsbiq-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
