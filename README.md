@@ -64,21 +64,20 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-AdsBiQ provides a comprehensive advertising intelligence platform that aggregates, normalizes, and analyzes ad campaign data across multiple channels and networks. Their API enables developers to retrieve detailed metrics, audience insights, and performance reports, facilitating data-driven marketing decisions and automated reporting workflows. The company focuses on transparency, data accuracy, and scalable solutions for agencies and enterprises.
+ADSB IQ (Sky Power Services LLC) operates an open network that aggregates ADS‑B aircraft broadcast data, providing a free, real‑time REST and WebSocket API, live map visualizations, and downloadable Parquet datasets for developers, hobbyists, and aviation enthusiasts. The platform encourages community‑run feeders to contribute data, offering comprehensive aircraft information such as position, registration, type, callsign, and flight details, while maintaining open‑source tooling and transparent roadmaps.
 
-**Areas:** Advertising · DataAnalytics · MarketingTechnology · API · Company
+**Areas:** Aviation · Data · OpenSource · RealTime · Community
 
 ## adsbiq-com on APIs.io
 
 Everything profiled for adsbiq-com is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/adsbiq-com/](https://apis.io/providers/adsbiq-com/)** — or go straight to one of the APIs or properties below.
 
-### APIs (5)
+### APIs (4)
 
-- [adsbiq-com Aircraft API](https://apis.io/apis/adsbiq-com/adsbiq-com-aircraft-api/) — The Aircraft API from adsbiq-com — 7 operation(s) for aircraft.
+- [adsbiq-com Aircraft API](https://apis.io/apis/adsbiq-com/adsbiq-com-aircraft-api/) — The Aircraft API from adsbiq-com — 6 operation(s) for aircraft.
 - [adsbiq-com Airports API](https://apis.io/apis/adsbiq-com/adsbiq-com-airports-api/) — The Airports API from adsbiq-com — 4 operation(s) for airports.
 - [adsbiq-com Flights API](https://apis.io/apis/adsbiq-com/adsbiq-com-flights-api/) — The Flights API from adsbiq-com — 2 operation(s) for flights.
-- [adsbiq-com Geographic API](https://apis.io/apis/adsbiq-com/adsbiq-com-geographic-api/) — The Geographic API from adsbiq-com — 2 operation(s) for geographic.
-- [adsbiq-com Network API](https://apis.io/apis/adsbiq-com/adsbiq-com-network-api/) — The Network API from adsbiq-com — 1 operation(s) for network.
+- [adsbiq-com Geographic API](https://apis.io/apis/adsbiq-com/adsbiq-com-geographic-api/) — The Geographic API from adsbiq-com — 1 operation(s) for geographic.
 
 ### Published properties
 
@@ -117,31 +116,46 @@ Authentication, trust centre, and vulnerability disclosure.
 - [Adsbiq Com Domain Security](https://apis.io/security/adsbiq-com/adsbiq-com-domain-security/)
 - [Adsbiq Com Vulnerability Disclosure](https://apis.io/security/adsbiq-com/adsbiq-com-vulnerability-disclosure/)
 
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Adsbiq Com Scopes](https://apis.io/scopes/adsbiq-com/adsbiq-com-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Adsbiq Com Plans Pricing](https://apis.io/plans/adsbiq-com/adsbiq-com-plans-pricing/)
+
 ## Where to find this API
 
 Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://adsbiq.com/)
+- [Documentation](https://adsbiq.com/api/docs)
+- [Getting started](https://adsbiq.com/guide)
 - [API reference](https://adsbiq.com/api/docs)
+- [Sign up](https://adsbiq.com/join)
 - [Terms of service](https://adsbiq.com/terms)
 - [Privacy policy](https://adsbiq.com/privacy)
-- [GitHub](https://github.com/adsbiq)
+- [GitHub](https://github.com/Sky-Power-Services)
 - [Status](https://adsbiq.com/status)
 
 ## API Evangelist rating
 
-**Kin Score 45.1** — developing · rubric 0.25.0 · scored 2026-10-30
+**Kin Score 54.3** — strong · rubric 0.25.0 · scored 2026-10-30
 
 | Facet | Score |
 |---|---|
 | Discoverability | 65.0 |
-| Contract quality | 59.8 |
-| Contract governance | 70.9 |
+| Contract quality | 54.2 |
+| Contract governance | 79.1 |
 | Operational transparency | 36.8 |
-| Developer ergonomics | 19.0 |
-| Access clarity | 21.1 |
+| Developer ergonomics | 46.9 |
+| Access clarity | 34.2 |
 
-**Agent readiness 32.3** — agent-ready
+**Agent readiness 29.5** — agent-ready
 
 | Agent-readiness dimension | Result |
 |---|---|
@@ -153,9 +167,9 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Idempotency | — |
 | Error Semantics | derived (partial credit) |
 | OpenAPI Examples | — |
-| Rate Limit Signal | verified |
+| Rate Limit Signal | — |
 | Event Surface Described | — |
-| Agent Skills | — |
+| Agent Skills | unknown |
 | Well Known Catalog | — |
 | Consent Identity | — |
 | Agent Card | — |
@@ -164,10 +178,10 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Protected Resource Metadata | — |
 | Dynamic Client Registration | — |
 | Agentic Commerce | — |
-| Pagination Ratio | na |
+| Pagination Ratio | — |
 | Operation Distinctiveness | distinct |
 
-**Regulatory alignment 30.4** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 40.2** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/adsbiq-com/](https://apis.io/providers/adsbiq-com/).
 
